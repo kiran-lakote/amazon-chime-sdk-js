@@ -61,6 +61,7 @@ Resources:
               - 'logs:CreateLogStream'
               - 'logs:PutLogEvents'
               - 'logs:DescribeLogStreams'
+              - 'cloudwatch:*'
             Resource: '*'
       Roles:
         - Ref: ChimeSdkBrowserLogsLambdaRole
